@@ -1,0 +1,46 @@
+#container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+#first_number {
+  width: 400px;
+  height: 30px;
+  line-height: 35px;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+#second_number {
+  width: 400px;
+  height: 30px;
+  line-height: 35px;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+#order {
+  align-items: center;
+  text-align: center;
+  width: 404px;
+  height: 45px;
+  background-color: #ccc;
+  color: black;
+  border: 1px solid black;
+}
+
+#result {
+  width: 150px;
+  height: 65px;
+  margin: 25px auto;
+  border: 1px solid black;
+  text-align: center;
+}

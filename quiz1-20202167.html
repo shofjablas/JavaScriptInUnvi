@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: #f5ebe0;
+      }
+      #container {
+        width: 500px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+      }
+
+      p {
+        margin-bottom: 30px;
+      }
+
+      #first_number {
+        width: 400px;
+        height: 30px;
+        line-height: 35px;
+        border: 1px solid #343a40;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 2px 2px 2px #343a40;
+        background-color: #edede9;
+      }
+
+      #second_number {
+        background-color: #edede9;
+        width: 400px;
+        height: 30px;
+        border: 1px solid #343a40;
+
+        margin-bottom: 10px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 2px 2px 2px #343a40;
+      }
+
+      #order {
+        align-items: center;
+        text-align: center;
+        width: 404px;
+        height: 45px;
+        background-color: #d6ccc2;
+        color: black;
+        border: 1px solid #343a40;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px #343a40;
+      }
+
+      #order:hover {
+        background-color: #6b705c;
+        color: white;
+        border-radius: 20px;
+      }
+
+      #result {
+        width: 150px;
+        height: 65px;
+        margin: 25px auto;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px #343a40;
+        text-align: center;
+        font-size: 300%;
+        background-color: #edede9;
+        border-radius: 20px;
+      }
+    </style>
+    <title>연습문제 2</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>최대공약수 구하기</h1>
+      <p>두 수를 입력한 후 [계산하기]를 클릭하세요.</p>
+
+      <form>
+        <input id="first_number" type="text" placeholder="첫 번째 수" />
+        <input id="second_number" type="text" placeholder="두 번째 수" />
+        <button type="button" id="order">계산하기</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+    <script src="quiz1-20202167.js"></script>
+  </body>
+</html>
